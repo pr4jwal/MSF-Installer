@@ -93,7 +93,7 @@ function install_armitage_linux
 if [[ "$KVER" =~ Darwin ]]; then
     install_armitage_osx
 
-elif [[ "$KVER" =~ buntu ]]; then
+elif [[ "$KVER" =~ Debian ]]; then
     install_armitage_linux
 
 else
