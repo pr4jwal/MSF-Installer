@@ -93,7 +93,7 @@ function install_armitage_linux
 if [[ "$KVER" =~ Darwin ]]; then
     install_armitage_osx
 
-elif [[ "$KVER" =~ Debian ]]; then
+elif [[ "$KVER" =~ matriux ]]; then
     install_armitage_linux
 
 else
